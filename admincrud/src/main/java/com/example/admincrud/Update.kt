@@ -22,7 +22,7 @@ class Update : AppCompatActivity() {
 binding.Updatebutton.setOnClickListener {
     val  uid= binding.uid.text.toString()
     val  name= binding.name.text.toString()
-    val Class= binding.name.text.toString()
+    val Class= binding.editTextClass.text.toString()
 
       updateData(name,uid,Class)
 

@@ -23,10 +23,14 @@ class MainActivity : AppCompatActivity() {
 
   }
         binding.Updatebutton.setOnClickListener {
-      var intent = Intent(this, Update
-      ::class.java)
+      var intent = Intent(this, Update::class.java)
       startActivity(intent)
 
     }
+        binding.Deletebutton.setOnClickListener {
+            var intent = Intent(this, Delete::class.java)
+            startActivity(intent)
+
+        }
 }
 }

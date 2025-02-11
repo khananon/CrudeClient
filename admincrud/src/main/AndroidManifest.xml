@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CrudeClient">
         <activity
+            android:name=".Delete"
+            android:exported="false" />
+        <activity
             android:name=".Update"
             android:exported="false" />
         <activity

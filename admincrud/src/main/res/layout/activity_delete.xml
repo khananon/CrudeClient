@@ -34,6 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/SearcheditText" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="361dp"
         android:layout_height="wrap_content"
         android:background="@drawable/blue_border"
@@ -41,7 +42,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button">
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.18">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,6 +51,7 @@
             android:layout_margin="20dp"
 
             >
+
             <TextView
                 android:id="@+id/Name"
                 android:layout_width="wrap_content"
@@ -56,7 +59,8 @@
                 android:text="Name"
                 android:textColor="@color/blue"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/NameShow"
                 android:layout_width="wrap_content"
@@ -65,7 +69,7 @@
                 android:layout_marginStart="80dp"
                 android:textColor="@color/white"
                 android:textSize="20dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -74,11 +78,13 @@
             android:layout_height="1dp"
             android:layout_margin="10dp"
             android:alpha="0.8"
-            android:background="@color/blue"/>
+            android:background="@color/blue" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_margin="20dp">
+
             <TextView
                 android:id="@+id/ClassName"
                 android:layout_width="wrap_content"
@@ -86,7 +92,8 @@
                 android:text="Class"
                 android:textColor="@color/blue"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/ClassShow"
                 android:layout_width="wrap_content"
@@ -95,19 +102,22 @@
                 android:layout_marginStart="80dp"
                 android:textColor="@color/white"
                 android:textSize="20dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
+
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_margin="10dp"
             android:alpha="0.8"
-            android:background="@color/blue"/>
+            android:background="@color/blue" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_margin="20dp">
+
             <TextView
                 android:id="@+id/uid"
                 android:layout_width="wrap_content"
@@ -115,7 +125,8 @@
                 android:text="UID"
                 android:textColor="@color/blue"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/UidShow"
                 android:layout_width="wrap_content"
@@ -124,13 +135,26 @@
                 android:layout_marginStart="80dp"
                 android:textColor="@color/white"
                 android:textSize="20dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/DeleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="#F63E3E"
+        android:text="Delete"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.265" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
