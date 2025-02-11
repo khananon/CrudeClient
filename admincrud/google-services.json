@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "901360610947",
+    "project_id": "crudeclient-54762",
+    "storage_bucket": "crudeclient-54762.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901360610947:android:05fee7ca89790a965775b6",
+        "android_client_info": {
+          "package_name": "com.example.admincrud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGJrYsESzSTCgfa9vLjKeVqICya4wyAn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901360610947:android:3f9ba6aa86233cc05775b6",
+        "android_client_info": {
+          "package_name": "com.example.crudeclient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGJrYsESzSTCgfa9vLjKeVqICya4wyAn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
